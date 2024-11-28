@@ -11,7 +11,7 @@ export const options = {
     http_req_failed: ['rate<0.12'],
     http_req_duration: ['p(95)<5700'],
     success_rate: ['rate>0.88'],
-    get_contacts_duration: ['avg<5700']
+    get_crocodiles_duration: ['avg<5700']
   },
   stages: [
     { duration: '10s', target: 10 },
